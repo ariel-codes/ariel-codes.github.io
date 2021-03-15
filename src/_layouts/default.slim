@@ -8,5 +8,5 @@ html lang="pt-BR"
 
     link rel="stylesheet" href=webpack_path(:css)
     script src=webpack_path(:js) defer=""
-  body.font-sans.h-screen.w-screen.flex.flex-col.items-center
+  body class="font-sans flex flex-col items-center overflow-x-hidden overflow-y-scroll lg:h-screen lg:w-screen"
     == content
