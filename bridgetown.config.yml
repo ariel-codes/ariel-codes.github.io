@@ -16,8 +16,15 @@
 #
 
 baseurl: "" # OPTIONAL: the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://ariel.codes" # the base hostname & protocol for your site, e.g. https://example.com
 
 permalink: pretty
 
-# timezone: America/Los_Angeles
+lang: pt-BR
+timezone: America/Sao_Paulo
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/banner.webp

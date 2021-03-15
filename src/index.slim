@@ -1,5 +1,37 @@
 ---
 layout: default
 ---
-
-h1.bg-red-500 Welcome to Bridgetown!
+nav.bg-primary.w-full.flex.flex-row.text-5xl.text-white.items-center.justify-center.py-3.gap-4
+	h1.text-right.w-32.pt-5 Ariel
+	img.w-20 src="images/logo@2x.webp" alt="Ícone" srcset="images/logo@2x.webp 160w, images/logo.webp 80w"
+	h1.text-left.w-32.pt-5 Santos
+main.flex-grow.grid.grid-cols-2.auto-rows-min.gap-y-4.gap-x-0.max-w-5xl.pt-10 class="lg:gap-x-4 lg:gap-y-8"
+	header
+		h2.text-5xl Olá!<br>Meu nome é Ariel,
+		h3.text-2xl sou um <span class="font-medium">desenvolvedor de software</span> de .bhz.br
+	div
+	div.text-2xl
+		p Desde 2016, já trabalhei com:
+		ul.pl-4.list-disc
+			li PHP (Slim),
+			li ReactJs,
+			li Android (React Native, Kotlin & Java),
+			li iOS (React Native & Swift),
+			li Flask,
+			li NuxtJs,
+			li D3.js
+	div.text-2xl
+		p.font-medium e, principalmente,
+		div.flex.flex-col.gap-2
+			img.w-full src="images/rails@2x.webp" alt="Logo Ruby on Rails" srcset="images/rails@2x.webp 411w, images/rails.webp 206w"
+			p.w-full.text-center &
+			img.w-full src="images/flutter@2x.webp" alt="Logo Flutter" srcset="images/flutter@2x.webp 511w, images/flutter.webp 256w"
+	div.col-span-2.text-2xl.font-medium
+		div
+			header.inline.mr-4 Links & Contato:
+			div.inline-flex.gap-2
+				a.text-primary class='hover:text-secondary' href="https://#{site.data.links.github}" Portfólio
+				| –
+				a.text-primary class='hover:text-secondary' href="mailto:#{site.data.links.email}" E-mail
+				| –
+				a.text-primary class='hover:text-secondary' href="https://#{site.data.links.linkedin}" LinkedIn

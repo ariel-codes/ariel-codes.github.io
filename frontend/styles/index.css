@@ -2,22 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --body-background: #fafafa;
-  --body-color: #444;  
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('../fonts/Gill Sans.woff2');
 }
 
-body {
-  background: var(--body-background);
-  color: var(--body-color);
-  font-family: sans-serif;
+@font-face {
+  font-family: 'Gill Sans';
+  font-style: italic;
+  src: url('../fonts/Gill Sans Italic.woff2');
 }
 
-h1, nav, footer {
-  text-align: center;
+@font-face {
+  font-family: 'Gill Sans';
+  font-weight: 500;
+  src: url('../fonts/Gill Sans Medium.woff2');
 }
 
-main {
-  margin: 4rem auto;
-  max-width: 60rem;
+@font-face {
+  font-family: 'Gill Sans';
+  font-weight: 500;
+  font-style: italic;
+  src: url('../fonts/Gill Sans Medium Italic.woff2');
 }
