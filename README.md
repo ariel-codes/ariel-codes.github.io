@@ -1,6 +1,6 @@
 # Bridgetown Website README
 
-Welcome to your new Bridgetown website! You can update this README file to provide additional context and setup information for yourself or other contributors.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/21cd236a-9403-4661-9557-4db9639249bf/deploy-status)](https://app.netlify.com/sites/mystifying-swirles-2d0cf4/deploys)
 
 ## Table of Contents
 
@@ -26,7 +26,6 @@ Welcome to your new Bridgetown website! You can update this README file to provi
 ## Install
 
 ```sh
-cd bridgetown-site-folder
 bundle install && yarn install
 ```
 > Learn more: [Bridgetown Getting Started Documentation](https://www.bridgetownrb.com/docs/).
@@ -57,14 +56,3 @@ bundle exec bridgetown console
 You can deploy Bridgetown sites on "Jamstack" hosts (Netlify, Vercel, Render, etc.) or virtually any tranditional web server by simply building and copying the output folder to your HTML root.
 
 > Read the [Bridgetown Deployment Documentation](https://www.bridgetownrb.com/docs/deployment) for more information.
-
-## Contributing
-
-If repo is on GitHub:
-
-1. Fork it
-2. Clone the fork using `git clone` to your local development machine.
-3. Create your feature branch (`git checkout -b my-new-feature`)
-4. Commit your changes (`git commit -am 'Add some feature'`)
-5. Push to the branch (`git push origin my-new-feature`)
-6. Create a new Pull Request

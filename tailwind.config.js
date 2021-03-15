@@ -1,7 +1,6 @@
 module.exports = {
   purge: {
-    enabled: true,
-    content: ['frontend/javascript/*.js','./output/**/*.html'],
+    enabled: false
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
